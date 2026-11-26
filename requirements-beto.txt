@@ -1,0 +1,5 @@
+-r requirements.txt
+# Solo para usar o entrenar los pesos TensorFlow de BETO.
+tensorflow==2.20.0
+tf-keras==2.20.1
+transformers==4.57.3

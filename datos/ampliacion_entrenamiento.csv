@@ -1,0 +1,121 @@
+Comentario,Estrellas,sentimiento,requiere_revision,origen
+"Recibí el pedido con la pantalla quebrada y la caja aplastada.",1,negativo,false,ampliacion_sintetica
+"El equipo vino averiado y no funciona desde el primer día.",1,negativo,false,ampliacion_sintetica
+"La mesa tiene una pata rota y no se puede usar.",1,negativo,false,ampliacion_sintetica
+"Abrí la caja y encontré el espejo hecho pedazos.",1,negativo,false,ampliacion_sintetica
+"La carcasa estaba rota antes de encender el aparato.",1,negativo,false,ampliacion_sintetica
+"Me enviaron un vaso roto y rechazaron el cambio.",1,negativo,false,ampliacion_sintetica
+"El paquete llegó dañado y faltaban piezas importantes.",1,negativo,false,ampliacion_sintetica
+"La silla se quebró durante el primer uso.",1,negativo,false,ampliacion_sintetica
+"El cargador no carga y se calienta demasiado.",1,negativo,false,ampliacion_sintetica
+"El teléfono venía rayado y con la batería defectuosa.",1,negativo,false,ampliacion_sintetica
+"La devolución sigue pendiente y atención al cliente me ignora.",1,negativo,false,ampliacion_sintetica
+"Llamé varias veces y dejaron mi solicitud sin respuesta.",1,negativo,false,ampliacion_sintetica
+"No contestan mis mensajes sobre el reembolso.",1,negativo,false,ampliacion_sintetica
+"Nadie se hizo cargo del daño y sigo esperando una solución.",1,negativo,false,ampliacion_sintetica
+"El servicio técnico no respondió y perdí la garantía.",1,negativo,false,ampliacion_sintetica
+"Presenté una queja por el cobro y no recibí ayuda.",1,negativo,false,ampliacion_sintetica
+"Me cerraron el reclamo sin resolver el problema.",1,negativo,false,ampliacion_sintetica
+"No respondieron a la solicitud de cambio del artículo dañado.",1,negativo,false,ampliacion_sintetica
+"El soporte prometió contactarme pero nunca lo hizo.",1,negativo,false,ampliacion_sintetica
+"No recomiendo esta tienda porque no atiende las devoluciones.",1,negativo,false,ampliacion_sintetica
+"Pagué hace un mes y todavía no entregan mi compra.",1,negativo,false,ampliacion_sintetica
+"El despacho no llegó y no me devolvieron el dinero.",1,negativo,false,ampliacion_sintetica
+"El envío se perdió y la empresa no ofrece ninguna solución.",1,negativo,false,ampliacion_sintetica
+"La entrega fue muy lenta y el embalaje estaba destruido.",1,negativo,false,ampliacion_sintetica
+"Recibí un artículo distinto al que había comprado.",1,negativo,false,ampliacion_sintetica
+"No es resistente como decía la publicación y se rompió enseguida.",1,negativo,false,ampliacion_sintetica
+"La calidad no es buena y el material se desarma.",2,negativo,false,ampliacion_sintetica
+"No cumple con lo prometido y no vale lo que pagué.",1,negativo,false,ampliacion_sintetica
+"La atención no fue amable y me trataron mal.",1,negativo,false,ampliacion_sintetica
+"El producto no funciona bien y no lo volvería a comprar.",1,negativo,false,ampliacion_sintetica
+"El cierre se atascó y la tela se rasgó a los pocos días.",2,negativo,false,ampliacion_sintetica
+"Venía incompleto y el vendedor se negó a ayudarme.",1,negativo,false,ampliacion_sintetica
+"La reparación quedó mal y tuve que pagarla de nuevo.",1,negativo,false,ampliacion_sintetica
+"La comida estaba fría y el pedido incompleto.",1,negativo,false,ampliacion_sintetica
+"Me cobraron dos veces y no solucionaron el error.",1,negativo,false,ampliacion_sintetica
+"Tiene mal olor y manchas que no salen.",2,negativo,false,ampliacion_sintetica
+"La instalación falló y el técnico no regresó.",1,negativo,false,ampliacion_sintetica
+"La aplicación se cierra todo el tiempo y perdí mis datos.",1,negativo,false,ampliacion_sintetica
+"Las instrucciones son confusas y faltan tornillos.",2,negativo,false,ampliacion_sintetica
+"Estoy decepcionado con la compra y el servicio recibido.",1,negativo,false,ampliacion_sintetica
+"Recibí el pedido con la pantalla intacta y la caja bien protegida.",5,positivo,false,ampliacion_sintetica
+"El equipo funciona correctamente desde el primer día.",5,positivo,false,ampliacion_sintetica
+"La mesa es firme y se puede usar sin problemas.",5,positivo,false,ampliacion_sintetica
+"El espejo venía muy bien embalado y sin daños.",5,positivo,false,ampliacion_sintetica
+"La carcasa está intacta y el aparato funciona perfecto.",5,positivo,false,ampliacion_sintetica
+"Me cambiaron el vaso roto y quedé satisfecho con la solución.",5,positivo,false,ampliacion_sintetica
+"El paquete no llegó dañado y estaban todas las piezas.",5,positivo,false,ampliacion_sintetica
+"La silla resiste bien y es muy cómoda.",5,positivo,false,ampliacion_sintetica
+"El cargador carga rápido y no se calienta.",5,positivo,false,ampliacion_sintetica
+"El teléfono venía impecable y la batería dura mucho.",5,positivo,false,ampliacion_sintetica
+"Atención al cliente completó la devolución y me ayudó en todo.",5,positivo,false,ampliacion_sintetica
+"Respondieron mi solicitud rápidamente y resolvieron la duda.",5,positivo,false,ampliacion_sintetica
+"Contestaron todos mis mensajes sobre el reembolso.",5,positivo,false,ampliacion_sintetica
+"Se hicieron cargo del daño y me dieron una buena solución.",5,positivo,false,ampliacion_sintetica
+"El servicio técnico respondió y respetó la garantía.",5,positivo,false,ampliacion_sintetica
+"Recibí ayuda con el cobro y corrigieron el error.",5,positivo,false,ampliacion_sintetica
+"Resolvieron el reclamo y quedé conforme con la atención.",5,positivo,false,ampliacion_sintetica
+"Respondieron a la solicitud y cambiaron el artículo dañado.",5,positivo,false,ampliacion_sintetica
+"El soporte me contactó a tiempo y solucionó la falla.",5,positivo,false,ampliacion_sintetica
+"Recomiendo esta tienda porque atiende bien las devoluciones.",5,positivo,false,ampliacion_sintetica
+"La compra se entregó antes de la fecha prometida.",5,positivo,false,ampliacion_sintetica
+"El despacho llegó puntualmente y no tuve inconvenientes.",5,positivo,false,ampliacion_sintetica
+"La empresa resolvió el envío perdido y recibí mi pedido.",5,positivo,false,ampliacion_sintetica
+"La entrega fue rápida y el embalaje estaba impecable.",5,positivo,false,ampliacion_sintetica
+"Recibí exactamente el artículo que había comprado.",5,positivo,false,ampliacion_sintetica
+"Es resistente como decía la publicación y sigue como nuevo.",5,positivo,false,ampliacion_sintetica
+"La calidad es buena y el material es firme.",5,positivo,false,ampliacion_sintetica
+"Cumple con lo prometido y vale lo que pagué.",5,positivo,false,ampliacion_sintetica
+"La atención fue amable y me trataron muy bien.",5,positivo,false,ampliacion_sintetica
+"El producto funciona bien y lo volvería a comprar.",5,positivo,false,ampliacion_sintetica
+"El cierre funciona suave y la tela es resistente.",5,positivo,false,ampliacion_sintetica
+"Venía completo y el vendedor me ayudó con la instalación.",5,positivo,false,ampliacion_sintetica
+"La reparación quedó bien y no volvió a fallar.",5,positivo,false,ampliacion_sintetica
+"La comida estaba caliente y el pedido completo.",5,positivo,false,ampliacion_sintetica
+"Me corrigieron el cobro duplicado sin demoras.",5,positivo,false,ampliacion_sintetica
+"No tiene mal olor y llegó limpio sin manchas.",5,positivo,false,ampliacion_sintetica
+"La instalación fue exitosa y el técnico explicó todo.",5,positivo,false,ampliacion_sintetica
+"La aplicación funciona estable y conserva mis datos.",5,positivo,false,ampliacion_sintetica
+"Las instrucciones son claras y vienen todos los tornillos.",5,positivo,false,ampliacion_sintetica
+"Estoy satisfecho con la compra y el servicio recibido.",5,positivo,false,ampliacion_sintetica
+"No he tenido problemas desde que compré el aparato.",5,positivo,false,ampliacion_sintetica
+"La compra no me dio problemas y la atención fue amable.",5,positivo,false,ampliacion_sintetica
+"No tengo ninguna queja sobre la calidad.",5,positivo,false,ampliacion_sintetica
+"Lo usé varias semanas sin problemas de funcionamiento.",5,positivo,false,ampliacion_sintetica
+"El envío llegó sin daños y la compra fue satisfactoria.",5,positivo,false,ampliacion_sintetica
+"No hubo fallas durante la instalación y funciona bien.",5,positivo,false,ampliacion_sintetica
+"La pantalla no tiene rayas y la imagen se ve excelente.",5,positivo,false,ampliacion_sintetica
+"El equipo no está roto y cumple perfectamente su función.",5,positivo,false,ampliacion_sintetica
+"El servicio no es malo; me ayudaron con todas mis dudas.",5,positivo,false,ampliacion_sintetica
+"No tengo reclamos porque la entrega fue puntual.",5,positivo,false,ampliacion_sintetica
+"Solucionaron la devolución sin ninguna demora.",5,positivo,false,ampliacion_sintetica
+"Devolvieron el importe y atendieron mi solicitud.",5,positivo,false,ampliacion_sintetica
+"La falla quedó solucionada y recibí un reemplazo impecable.",5,positivo,false,ampliacion_sintetica
+"El reembolso fue aprobado y recuperé mi pago completo.",5,positivo,false,ampliacion_sintetica
+"Gestionaron bien mi reclamo y cumplieron con la solución.",5,positivo,false,ampliacion_sintetica
+"Mi reclamo tuvo una respuesta favorable y rápida.",5,positivo,false,ampliacion_sintetica
+"El problema inicial quedó resuelto y ahora funciona bien.",5,positivo,false,ampliacion_sintetica
+"Me devolvieron todo el dinero y la atención fue cordial.",5,positivo,false,ampliacion_sintetica
+"Atendieron mi queja y repusieron la pieza sin cobrar.",5,positivo,false,ampliacion_sintetica
+"Me solucionaron el inconveniente con un cambio inmediato.",5,positivo,false,ampliacion_sintetica
+"He tenido muchos problemas desde que compré el aparato.",1,negativo,false,ampliacion_sintetica
+"La compra me dio problemas y la atención fue descortés.",1,negativo,false,ampliacion_sintetica
+"Tengo varias quejas sobre la calidad del material.",1,negativo,false,ampliacion_sintetica
+"Aparecen problemas de funcionamiento todos los días.",1,negativo,false,ampliacion_sintetica
+"El envío llegó con daños y quedé disconforme.",1,negativo,false,ampliacion_sintetica
+"Hubo fallas durante la instalación y sigue sin funcionar.",1,negativo,false,ampliacion_sintetica
+"La pantalla tiene rayas y la imagen se ve mal.",1,negativo,false,ampliacion_sintetica
+"El equipo está roto y no cumple su función.",1,negativo,false,ampliacion_sintetica
+"El servicio es malo y no aclararon ninguna duda.",1,negativo,false,ampliacion_sintetica
+"Tengo reclamos porque la entrega nunca se realizó.",1,negativo,false,ampliacion_sintetica
+"No solucionaron la devolución y siguen reteniendo mi pago.",1,negativo,false,ampliacion_sintetica
+"Se negaron a devolver el importe de la compra.",1,negativo,false,ampliacion_sintetica
+"La falla no quedó solucionada y no ofrecieron reemplazo.",1,negativo,false,ampliacion_sintetica
+"El reembolso fue rechazado y perdí mi dinero.",1,negativo,false,ampliacion_sintetica
+"Gestionaron mal mi reclamo y no cumplieron su promesa.",1,negativo,false,ampliacion_sintetica
+"Mi reclamo sigue abierto y nunca recibí una respuesta.",1,negativo,false,ampliacion_sintetica
+"El problema inicial sigue igual y ahora funciona peor.",1,negativo,false,ampliacion_sintetica
+"No me devolvieron el dinero y la atención fue hostil.",1,negativo,false,ampliacion_sintetica
+"Ignoraron mi queja y cobraron por una pieza que faltaba.",1,negativo,false,ampliacion_sintetica
+"El pedido sigue sin ser entregado y los mensajes quedan sin contestar.",1,negativo,false,ampliacion_sintetica

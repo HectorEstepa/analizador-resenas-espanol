@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Análisis de reseñas en español con sentimiento positivo o negativo y métricas verificables.">
+  <title>Reseñas · Analizador en español</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+  <main class="contenedor">
+    <header><p class="etiqueta">PROYECTO UNIVERSITARIO · NLP EN ESPAÑOL</p><h1>Lo que dice una reseña.</h1><p class="intro">Explora su sentimiento y el tema que comunica.</p></header>
+    <div class="columnas">
+      <section class="tarjeta" aria-labelledby="titulo-entrada">
+        <h2 id="titulo-entrada">Prueba con un comentario</h2>
+        <p id="descripcion-modelo">Sentimiento positivo o negativo con un modelo entrenado en el proyecto.</p>
+        <form id="formulario">
+          <label for="texto">Reseña en español</label>
+          <textarea id="texto" name="texto" rows="7" maxlength="2000" required aria-describedby="ayuda contador" placeholder="El producto llegó a tiempo y la calidad me sorprendió..."></textarea>
+          <div class="meta"><span id="ayuda">Entre 2 y 200 palabras.</span><span id="contador">0 / 2000</span></div>
+          <div class="ejemplos" aria-label="Reseñas de ejemplo"><button type="button" data-ejemplo="El producto llegó rápido y es de muy buena calidad. Lo recomiendo.">Positiva</button><button type="button" data-ejemplo="El producto llegó roto y nadie respondió a mi reclamo.">Negativa</button></div>
+          <button id="analizar" class="principal" type="submit">Analizar reseña <span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="privacidad">La aplicación procesa la reseña localmente y no la guarda. La primera carga del modelo puede tardar.</p>
+      </section>
+      <section class="tarjeta resultados" aria-labelledby="titulo-resultados" aria-busy="false">
+        <h2 id="titulo-resultados">Lectura del comentario</h2>
+        <p id="estado" role="status" aria-live="polite">Escribe una reseña para comenzar.</p>
+        <p id="error" role="alert" hidden></p>
+        <div id="salida" hidden>
+          <article><h3>Sentimiento</h3><p id="sentimiento" class="valor"></p><p id="origen-sentimiento" class="detalle"></p><label for="puntaje">Puntaje de la clase elegida</label><progress id="puntaje" max="1" value="0"></progress><span id="porcentaje"></span><ul id="distribucion" class="distribucion" aria-label="Puntajes por clase"></ul><p id="lectura-puntaje" class="detalle"></p><p class="nota">El puntaje se reparte entre las clases. No mide la intensidad del comentario ni el porcentaje de aciertos del modelo.</p></article>
+          <article><h3>Intención / tema</h3><p id="intencion" class="tema"></p><p id="origen-intencion" class="detalle"></p></article>
+          <p id="advertencia" class="nota"></p>
+        </div>
+      </section>
+    </div>
+    <section class="tarjeta evaluacion" aria-labelledby="titulo-metricas">
+      <p class="etiqueta">EVALUACIÓN DEL MODELO ACTIVO</p>
+      <h2 id="titulo-metricas">Resultados sobre reseñas reservadas</h2>
+      <p id="estado-metricas" role="status">Consultando el informe de prueba…</p>
+      <div id="metricas" hidden>
+        <div class="resumen-metricas"><div><span>Accuracy</span><strong id="metrica-accuracy"></strong></div><div><span>F1 macro</span><strong id="metrica-f1"></strong></div><div><span>Reseñas de prueba</span><strong id="metrica-n"></strong></div></div>
+        <p id="comparacion" class="detalle"></p>
+        <p class="nota">Accuracy cuenta aciertos totales. F1 macro da el mismo peso a cada clase: ayuda a detectar si el modelo ignora negativos.</p>
+        <div class="tablas-metricas">
+          <div class="tabla-scroll"><table><caption>Desempeño por clase</caption><thead><tr><th scope="col">Clase</th><th scope="col">Precisión</th><th scope="col">Recall</th><th scope="col">F1</th><th scope="col">Casos</th></tr></thead><tbody id="metricas-clases"></tbody></table></div>
+          <div class="tabla-scroll"><table><caption>Matriz de confusión · filas reales, columnas predichas</caption><thead id="confusion-cabecera"></thead><tbody id="confusion-cuerpo"></tbody></table></div>
+        </div>
+        <div class="tabla-scroll"><table><caption>Subconjuntos de la prueba · pueden solaparse</caption><thead><tr><th scope="col">Grupo</th><th scope="col">Casos</th><th scope="col">Accuracy</th><th scope="col">F1 macro</th></tr></thead><tbody id="metricas-grupos"></tbody></table></div>
+        <p id="limites-metricas" class="nota"></p>
+      </div>
+    </section>
+    <footer><strong>Cómo leer los resultados</strong><p>El modelo distingue positivo o negativo. El puntaje indica el apoyo a cada clase y no mide la intensidad del comentario. Una opinión mixta también recibe una de las dos clases.</p><p id="capacidades">Consultando funciones activas…</p></footer>
+  </main>
+</body>
+</html>

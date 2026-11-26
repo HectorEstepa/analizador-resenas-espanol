@@ -1,0 +1,5 @@
+# Aplicación y entrenamiento ligero. Python 3.13, CPU Windows.
+Flask==3.1.2
+numpy==2.2.3
+scikit-learn==1.7.2
+joblib==1.5.2

@@ -1,0 +1,4 @@
+-r requirements.txt
+# Solo para --contexto. Descarga del modelo de temas.
+transformers==4.57.3
+torch==2.9.1

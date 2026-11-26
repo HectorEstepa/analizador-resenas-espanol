@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+Thumbs.db
+# Datos originales: revisar procedencia y permisos antes de redistribuir.
+/datos.csv
+/reviews_limpio.csv
+# Pesos y artefactos entrenados se distribuyen por separado.
+/mi_modelo_guardado/
+/modelos/
+/evaluacion_externa*.json
+*.h5
+*.safetensors
+*.bin
+# Copias de los trabajos originales, incluido el HTML de propiedades.
+/originales/

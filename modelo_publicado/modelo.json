@@ -1,0 +1,8 @@
+{
+  "motor": "lineal",
+  "clases": [
+    "NEGATIVO",
+    "POSITIVO"
+  ],
+  "sha256_pesos": "72bde6392991a5d0516c4d949b6d0c12cb42dcb22aec8978f786c7cd4a32f550"
+}
